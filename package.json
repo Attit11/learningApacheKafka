@@ -1,0 +1,17 @@
+{
+  "name": "learningapachekafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "consumer": "node src/consumer.js",
+    "producer": "node src/producer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.12",
+    "node-rdkafka": "^3.2.1"
+  }
+}
