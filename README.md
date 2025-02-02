@@ -40,3 +40,8 @@ Start Kafka with Zookeeper
   
   bin/kafka-server-start.sh config/kraft/server.properties
 
+** 4. Run Producer and Consumer using the following command:**
+npm install
+npm run producer
+npm run consumer
+
