@@ -28,15 +28,15 @@ cd kafka_2.13-3.5.1
 
 Start Kafka with Zookeeper
 
-**Start Zookeeper:**
-
-bin/zookeeper-server-start.sh config/zookeeper.properties
-
-**Start Kafka:**
-
-bin/kafka-server-start.sh config/server.properties
-
-**Start Kafka:**
-
-bin/kafka-server-start.sh config/kraft/server.properties
+  **Start Zookeeper:**
+  
+  bin/zookeeper-server-start.sh config/zookeeper.properties
+  
+  **Start Kafka:**
+  
+  bin/kafka-server-start.sh config/server.properties
+  
+  **Start Kafka:**
+  
+  bin/kafka-server-start.sh config/kraft/server.properties
 
